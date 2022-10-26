@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.black {
+    background-color: #1f1f1f;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 4em;
+}
+
+.logo {
+    font-family: madrigal;
+    font-size: 5em; 
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    font-size: x-large;
+    padding: 1em;
+}
+
+.intro {
+    color: crimson;
+    display: flex;
+    padding: 4em 8em;
+    gap: 4em;
+    padding-bottom: 8em;
+}
+
+.intro-txt {
+    width: 32em;
+    font-size: larger;
+}
+
+button {
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.6em 1em;
+    border: 2px solid crimson;
+    border-radius: 4px;
+}
+
+.info {
+    background-color: #5f5f5f;
+    margin-top: -3.5em;
+    padding-bottom: 4em;
+    padding-top: 3em;
+}
+
+.intro-img img {
+    height: 16em;
+    width: 32em;
+}
+
+.info-header {
+    text-align: center;
+    font-family: madrigal;
+    font-size: 4em;
+    margin-top: 0;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 4ch;
+}
+
+.info-box img {
+    height: 12em;
+    width: 12em;
+    border: 4px solid crimson;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.quote-block {
+    padding: 6ch;
+    background-color: #eee;
+}
+
+.quote {
+    width: max-content;
+    margin: 0px auto;
+    font-size: large;
+}
+
+section {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 2ch;
+    background-color: #1f1f1f;
+    color: crimson  ;
+}
